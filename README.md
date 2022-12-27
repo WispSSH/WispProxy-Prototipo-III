@@ -20,13 +20,13 @@ Aplicativo Necessario (Android)
 Termux (Instalador)
 
 ```bash
-pkg upgrade && pkg update && pkg install python && pkg install git && pip install requests && pip install datetime && pip install ipcalc && pip install six && cd $home && mkdir WispProxy && git clone https://github.com/WispSSH/WispProxy-Prototipo-III.git WispProxy && cd WispProxy && rm README.md && python wispproxyv3.py
+pkg upgrade && pkg update && pkg install python && pkg install git && pip install requests && pip install datetime && pip install ipcalc && pip install six && cd $home && mkdir WispProxy && git clone https://github.com/WispSSH/WispProxy-Prototipo-III.git WispProxy && cd WispProxy && rm README.md && python3 wispproxyv3.py
 ```
 
 Atualizar Script (Já instalado)
 
 ```bash
-cd $home && git clone https://github.com/WispSSH/WispProxy-Prototipo-III.git atualizar && mv atualizar/wispproxyv3.py WispProxy/wispproxyv3.py && rm -r -f atualizar && cd WispProxy && python wispproxyv3.py
+cd $home && git clone https://github.com/WispSSH/WispProxy-Prototipo-III.git atualizar && mv atualizar/wispproxyv3.py WispProxy/wispproxyv3.py && rm -r -f atualizar && cd WispProxy && python3 wispproxyv3.py
 ```
 
 Dependencias
